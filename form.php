@@ -6,7 +6,7 @@ $fecha_nacimiento=$_POST["fecha_nacimiento"];
 $grupo=$_POST["grupo"];
 $nota=$_POST["nota"];
 
-$con = mysqli_connect('localhost','root','');
+$con = mysqli_connect('mysql','root','12345');
 
 if (!$con) {
   echo "Error: No se pudo conectar a MySQL." . PHP_EOL;
