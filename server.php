@@ -1,4 +1,3 @@
-
 <?php
 include 'result2XML.php';
 
@@ -29,4 +28,3 @@ if($result){
 
 mysqli_close($con);
 ?>
-
