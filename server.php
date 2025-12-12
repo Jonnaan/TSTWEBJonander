@@ -1,4 +1,3 @@
-
 <?php
 include 'result2XML.php';
 
